@@ -31,6 +31,7 @@ var twoSum = function (nums, target) {
         if (map.has(another_num)) {
             return [map.get(another_num), i];
         } else {
+            // 消除重复值对下标的更新
             if (!map.has(current_num)) {
                 map.set(current_num, i);
             }
