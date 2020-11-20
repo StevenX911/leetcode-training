@@ -7,8 +7,15 @@
     "doc": "doc",
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenX911/leetcode-training.git"
+  },
   "scripts": {
     "test": "mocha"
+  },
+  "engines": {
+    "node": "^10"
   },
   "keywords": [],
   "author": "",
