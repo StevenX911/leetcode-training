@@ -1,5 +1,12 @@
 # leetcode-training
 
+<a href="https://github.com/StevenX911/leetcode-training/releases/">
+    <img src="https://img.shields.io/github/release/StevenX911/leetcode-training.svg" alt="Latest release" />
+</a>
+<a href="https://travis-ci.com/StevenX911/leetcode-training">
+    <img src="https://travis-ci.com/StevenX911/leetcode-training.svg?branch=master" alt="Build status" />
+</a>
+
 > enhance my code level
 
 #### 文档结构
