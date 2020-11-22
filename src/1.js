@@ -24,7 +24,7 @@ var twoSum = function (nums, target){
     // 时间复杂度 O(n)
     let map = new Map();
     map.set(nums[0], 0);
-    for (let i = 1; i < len; i++) {
+    for (let i = 1; i < len; i++){
         let currentNum = nums[i];
         let anotherNum = target - nums[i];
         if (map.has(anotherNum)) {
