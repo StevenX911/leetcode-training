@@ -12,6 +12,8 @@
     "url": "https://github.com/StevenX911/leetcode-training.git"
   },
   "scripts": {
+    "precommit": "npm run lint",
+    "prepush": "npm run test",
     "test": "mocha",
     "lint": "eslint src --fix",
     "lint:create": "eslint --init",
