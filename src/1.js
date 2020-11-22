@@ -3,8 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
-
+var twoSum = function (nums, target){
     let len = nums.length;
     // 解法一：暴力循环
     // 空间复杂度 O(1)
@@ -26,14 +25,14 @@ var twoSum = function (nums, target) {
     let map = new Map();
     map.set(nums[0], 0);
     for (let i = 1; i < len; i++) {
-        let current_num = nums[i];
-        let another_num = target - nums[i];
-        if (map.has(another_num)) {
-            return [map.get(another_num), i];
+        let currentNum = nums[i];
+        let anotherNum = target - nums[i];
+        if (map.has(anotherNum)) {
+            return [map.get(anotherNum), i];
         } else {
             // 消除重复值对下标的更新
-            if (!map.has(current_num)) {
-                map.set(current_num, i);
+            if (!map.has(currentNum)) {
+                map.set(currentNum, i);
             }
         }
     }
