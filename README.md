@@ -9,10 +9,22 @@
 
 > enhance my code level
 
+#### 快速开始
+
+```shell
+npm i && npm test
+```
+
 #### 文档结构
 ```shell
 leetcode-training
+├── Dockerfile
+├── README.md
+├── benchmark                   # 基准测试
 ├── doc                         # 题目描述
+├── jsconfig.json
+├── package-lock.json
+├── package.json
 ├── src                         # 源码解答
 └── test                        # 测试用例
 ```
