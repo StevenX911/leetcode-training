@@ -25,6 +25,11 @@ var twoSum = function (nums, target) {
 // 利用Map缓存已经遍历过的数据元素及对应下标
 // 空间复杂度 O(n)
 // 时间复杂度 O(n)
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum2 = function (nums, target) {
     let len = nums.length;
 
@@ -48,6 +53,11 @@ var twoSum2 = function (nums, target) {
 // 解法三
 // 空间复杂度：O(1)
 // 时间复杂度: O(n)
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum3 = function (nums, target) {
     let len = nums.length;
 
@@ -69,6 +79,11 @@ var twoSum3 = function (nums, target) {
 // 解法四 使用Object作为Map
 // 空间复杂度：O(n)
 // 时间复杂度: O(n)
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum4 = function (nums, target) {
     let len = nums.length;
 
