@@ -1,4 +1,5 @@
 /**
+ * 获取字符串最长子串长度
  * @param {string} s
  * @return {number}
  */

@@ -1,8 +1,8 @@
-// 解法一：暴力循环
-// 两次for循环
-// 空间复杂度 O(1)
-// 时间复杂度 O(n2)
 /**
+ * 两数之和 解法一
+ * 暴力循环 两次for循环 
+ * 空间复杂度 O(1)
+ * 时间复杂度 O(n2)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -20,12 +20,12 @@ var twoSum = function (nums, target) {
     return [];
 };
 
-// 解法二：空间换时间
-// 单词for循环
-// 利用Map缓存已经遍历过的数据元素及对应下标
-// 空间复杂度 O(n)
-// 时间复杂度 O(n)
 /**
+ * 两数之和 解法二
+ * 空间换时间 单次for循环
+ * 利用Map缓存已经遍历过的数据元素及对应下标
+ * 空间复杂度 O(n)
+ * 时间复杂度 O(n)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -50,10 +50,11 @@ var twoSum2 = function (nums, target) {
     return [];
 };
 
-// 解法三
-// 空间复杂度：O(1)
-// 时间复杂度: O(n)
 /**
+ * 两数之和 解法三
+ * 利用数组indexOf遍历
+ * 空间复杂度：O(1)
+ * 时间复杂度: O(n2)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -76,10 +77,11 @@ var twoSum3 = function (nums, target) {
     return obj;
 };
 
-// 解法四 使用Object作为Map
-// 空间复杂度：O(n)
-// 时间复杂度: O(n)
 /**
+ * 两数之和 解法四
+ * 使用Object作为Map存储键值对
+ * 空间复杂度：O(n)
+ * 时间复杂度: O(n)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}

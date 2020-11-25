@@ -1,4 +1,4 @@
-// 对比Object和Map的时间复杂度
+/// 对比Object和Map的时间复杂度
 const benchmarkMap = size => {
     console.time('benchmarkMap');
     var map = new Map();

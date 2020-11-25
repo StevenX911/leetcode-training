@@ -6,6 +6,9 @@ function ListNode(val, next) {
     this.next = (next === undefined ? null : next);
 }
 /**
+ * 利用链表实现两数相加
+ * 时间复杂度 O(m,n)
+ * 空间复杂度 O(m,n)
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
@@ -44,9 +47,6 @@ var addTwoNumbers = function (l1, l2) {
     // 返回新链表的表头
     return head;
 };
-// 链表相加
-// 时间复杂度 O(m,n)
-// 空间复杂度 O(m,n)
 
 module.exports = {
     addTwoNumbers,

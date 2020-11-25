@@ -1,4 +1,6 @@
 /**
+ * 寻找两个正序数组的中位数 解法一
+ * 数组拼接、排序、查找
  * @param {number[]} nums1
  * @param {number[]} nums2
  * @return {number}

@@ -45,6 +45,7 @@ suite.add('两数之和#twoSum', function () {
         'async': true
     });
 
+    // 测试结果：
     // 两数之和#twoSum x 24,015,711 ops/sec ±2.60% (81 runs sampled)
     // 两数之和#twoSum2 x 1,590,391 ops/sec ±1.08% (87 runs sampled)
     // 两数之和#twoSum3 x 20,069,101 ops/sec ±2.59% (87 runs sampled)
