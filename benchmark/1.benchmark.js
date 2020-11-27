@@ -18,7 +18,7 @@ function generateArr(size) {
 }
 const size = 1000000;
 const nums = generateArr(size);
-const target = nums[size-1] + nums[size-2];
+const target = nums[size - 1] + nums[size - 2];
 
 // 添加测试
 suite.add('两数之和#twoSum', function () {
@@ -45,9 +45,9 @@ suite.add('两数之和#twoSum', function () {
         'async': true
     });
 
-    // 测试结果：
-    // 两数之和#twoSum x 24,015,711 ops/sec ±2.60% (81 runs sampled)
-    // 两数之和#twoSum2 x 1,590,391 ops/sec ±1.08% (87 runs sampled)
-    // 两数之和#twoSum3 x 20,069,101 ops/sec ±2.59% (87 runs sampled)
-    // 两数之和#twoSum4 x 114,917 ops/sec ±3.06% (84 runs sampled)
-    // Fastest is 两数之和#twoSum
+// 基准测试结果：
+// 两数之和#twoSum x 24,015,711 ops/sec ±2.60% (81 runs sampled)
+// 两数之和#twoSum2 x 1,590,391 ops/sec ±1.08% (87 runs sampled)
+// 两数之和#twoSum3 x 20,069,101 ops/sec ±2.59% (87 runs sampled)
+// 两数之和#twoSum4 x 114,917 ops/sec ±3.06% (84 runs sampled)
+// Fastest is 两数之和#twoSum
