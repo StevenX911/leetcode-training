@@ -15,10 +15,13 @@
     "precommit": "npm run lint",
     "prepush": "npm run test",
     "test": "mocha",
-    "lint": "eslint src --fix",
+    "lint":"eslint src",
+    "lint:fix": "eslint src --fix",
     "lint:create": "eslint --init",
     "lint-staged": "lint-staged",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
+    "prettier:check": "prettier --check src",
+    "prettier:write": "prettier --write src"
   },
   "husky": {
     "hooks": {
@@ -27,6 +30,7 @@
     }
   },
   "lint-staged": {
+    "src/*": "prettier",
     "src/*.js": "eslint"
   },
   "engines": {
@@ -47,6 +51,7 @@
     "husky": "^4.3.0",
     "lint-staged": "^10.5.1",
     "mocha": "^8.2.1",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "prettier": "2.2.1"
   }
 }

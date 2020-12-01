@@ -2,8 +2,8 @@
  * Definition for singly-linked list.
  */
 function ListNode(val, next) {
-    this.val = (val === undefined ? 0 : val);
-    this.next = (next === undefined ? null : next);
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
 }
 /**
  * 利用链表实现两数相加

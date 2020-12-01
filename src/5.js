@@ -1,6 +1,6 @@
 /**
  * 找出最长回文子串
- * 解法一：暴力循环 
+ * 解法一：暴力循环
  * 时间复杂度 O(n3)
  * 空间复杂度 O(n)
  * @param {string} s
@@ -34,7 +34,7 @@ var longestPalindrome = function (s) {
 
 /**
  * 找出最长回文子串
- * 解法二：动态规划 
+ * 解法二：动态规划
  * 时间复杂度 O(n2)
  * 空间复杂度 O(n2)
  * @param {string} s
@@ -47,7 +47,7 @@ var longestPalindrome2 = function (s) {
     }
     let res = '';
     //创建二维数组
-    let dp = Array.from(new Array(len), () => (new Array(len).fill(0)));
+    let dp = Array.from(new Array(len), () => new Array(len).fill(0));
     //从字符串首部开始
     for (let i = 0; i < len; i++) {
         //从字符串i前开始依次向前查找
@@ -64,7 +64,7 @@ var longestPalindrome2 = function (s) {
 
 /**
  * 找出最长回文子串
- * 解法三：中心扩散 
+ * 解法三：中心扩散
  * 时间复杂度 O(n2)
  * 空间复杂度 O(1)
  * @param {string} s
@@ -93,7 +93,7 @@ var longestPalindrome3 = function (s) {
     for (let i = 0; i < len; i++) {
         let obj = getLeftAndRight(i, i); // aba型
         let obj2 = getLeftAndRight(i, i + 1); // abba型
-        let max = (obj.right - obj.left > obj2.right - obj2.left) ? obj : obj2;
+        let max = obj.right - obj.left > obj2.right - obj2.left ? obj : obj2;
         if (max.right - max.left > end - start) {
             start = max.left;
             end = max.right;

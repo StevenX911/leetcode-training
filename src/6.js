@@ -20,7 +20,7 @@ var convert = function (s, numRows) {
     let down = false;
 
     // 迭代字符串并填充数组
-    for (const c of s){
+    for (const c of s) {
         rows[loc] += c;
         // 当下标到底顶部或者底部，切换方向
         if (loc === 0 || loc === len - 1) {
