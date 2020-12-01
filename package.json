@@ -30,8 +30,10 @@
     }
   },
   "lint-staged": {
-    "src/*": "prettier",
-    "src/*.js": "eslint"
+    "src/*.js": [
+      "prettier",
+      "eslint"
+    ]
   },
   "engines": {
     "node": "^8 | ^10 | ^12"
