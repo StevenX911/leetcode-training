@@ -7,6 +7,10 @@
     <img src="https://travis-ci.com/StevenX911/leetcode-training.svg?branch=master" alt="Build status" />
 </a>
 
+<a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier" />
+</a>
+
 > enhance my code level
 
 #### 快速开始
