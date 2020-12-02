@@ -16,7 +16,12 @@
 #### 快速开始
 
 ```shell
+# 安装依赖，运行测试用例
 npm i && npm test
+# 批量快速创建文件
+chmod 744 addfile.sh
+# name替换对应的文件名称
+./addfile.sh name
 ```
 
 #### 文档结构
