@@ -1,4 +1,5 @@
 /**
+ * 字符串 Z型转换
  * @param {string} s
  * @param {number} numRows
  * @return {string}
