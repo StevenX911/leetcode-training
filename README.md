@@ -38,6 +38,9 @@ leetcode-training
 └── test                        # 测试用例
 ```
 
+#### 题目分类
+![题目分类](category.png)
+
 #### 题目快链
 
 1. [两数之和](./doc/1.md)
