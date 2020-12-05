@@ -50,3 +50,4 @@ leetcode-training
 5. [最长回文子串](./doc/5.md)
 6. [Z 字形变换](./doc/6.md)
 7. [整数反转](./doc/7.md)
+70. [爬楼梯](./doc/70.md)
