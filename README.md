@@ -11,6 +11,10 @@
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier" />
 </a>
 
+<a href='https://coveralls.io/github/StevenX911/leetcode-training?branch=master'>
+  <img src='https://coveralls.io/repos/github/StevenX911/leetcode-training/badge.svg?branch=master' alt='Coverage Status' />
+</a>
+
 > enhance my code level
 
 #### 快速开始
